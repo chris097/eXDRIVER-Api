@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <title>Profile</title>
+</head>
+<body id="ride_app">
+   <header class="header">
+    <div class="navbar">
+        <nav class="nav_link_1">
+          <div class="logo"><a class="nav_nav" href="profile.html"><em>The-Transporter</em></a>
+            <a class="nav_logol" href="book.html">Book</a>
+            <a class="nav_nav" href="manage.html">Check-in</a>
+        </div>
+        </nav>
+    </div>
+   </header><!--end of navigation-->
+
+   <section class="book_slip">
+        <div class="book_slip_row">
+            <div class="book_slip_col">
+                <p>Your Booking Slip</p>
+                <div class="book_slip_content">
+                    <p>Booking Reference Number: <span class="brn_col">0023AcB2300</span></a></p>
+                    <p>Name: <br />King Jane Doe</p>
+                    <p>Email: <br /> chris@gmail.com</p>
+                    <div class="depart">
+                        <p>From: Lagos</p>
+                        <p>To: Imo</p>
+                    </div>
+                    <p>10 July 2019</p>
+                    <p>Departure time: 7:00am</p>
+                    <p>Fare: #20,000</p><a class="payment" href="pay.html">Make payment</a>
+                </div>
+            </div>
+        </div>
+ </section><!--booking slip contains your details of booking before payment-->
+
+<section class="booking"><!--start of booking form-->
+ <div class="book_form">
+   <div class="book_extension">
+        <a class="book_link" href="manage.html">Manage my booking</a>
+        <a class="book_link" href="manage.html">Online check-in</a>
+        <a class="book_link" href="manage.html">Agent login</a>
+   </div>
+     <div class="pay_style"><label class="pay_label" for="Pay">Pay in:</label>
+     <select name="currency" id="currency" class="current">
+         <option value="euro">&#163</option>
+         <option value="euro">&#165</option>
+         <option value="euro">&#162</option>
+         <option value="euro">&#8364</option>
+         <option value="euro">naira</option>
+         <option value="euro">cedis</option>
+     </select>
+     </div>
+     <div class="book_form_wrap">
+         <form action="" method="post">
+          <div>
+            <select name="city" id="city" class="city">
+                <option>From</option>
+                <option>Lagos</option>
+                <option>Imo</option>
+                <option>Kano</option>
+                <option>Onitsha</option>
+                <option>Akwa ibom</option>
+                <option>Calabar</option>
+                <option>Abuja</option>
+                <option>Ghana</option>
+                <option>Togo</option>
+                <option>Benin rep</option>
+            </select>       
+            <select name="city" id="city" class="city">
+                <option>To</option>
+                <option>Lagos</option>
+                <option>Imo</option>
+                <option>Kano</option>
+                <option>Onitsha</option>
+                <option>Akwa ibom</option>
+                <option>Calabar</option>
+                <option>Abuja</option>
+                <option>Ghana</option>
+                <option>Togo</option>
+                <option>Benin rep</option>
+            </select>
+          </div>
+          <div>
+          <input type="date" name="date" id="date" class="date">
+          </div>
+          <button class="btn_col"><a class="continue" href="#">Continue</a></button>  
+         </form>
+     </div>
+ </div>
+</section><!--end of booking form-->
+<script src="./assest/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "iride",
+  "version": "1.0.0",
+  "description": "An easy access aaround the city we are iRide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris097/iRide.git"
+  },
+  "author": "Chris junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris097/iRide/issues"
+  },
+  "homepage": "https://github.com/chris097/iRide#readme",
+  "dependencies": {
+    "config": "^3.2.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "joi": "^14.3.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.4",
+    "morgan": "^1.9.1"
+  }
+}

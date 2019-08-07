@@ -1,0 +1,582 @@
+html {
+    box-sizing: border-box;
+    text-size-adjust: 100%;
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    color: cornflowerblue;
+  }
+ p, ul { margin-top: 0;
+       margin-bottom: 1rem; 
+ }
+
+ /* Class Utilities */
+.pd_top{padding-top: 3rem;}
+.pd_cm{padding-top: 1.5rem;  color: rgb(147, 199, 216); font-size: 18px;}
+.fn_sz{font-size: 18px;}
+.col_1{color:  #fff;}
+.col_2{background:  rgb(190, 190, 190); color: #444}
+.mg{margin: 1rem 1rem;}
+.mg_1{margin: 1rem 0;}
+.col{color: goldenrod;}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* Navigation */
+
+ .header{
+     width: 100%;
+     height: 80px;
+     background-color: #fff;
+     position: fixed;
+     top: 0;
+ }
+
+ .logo{
+     font-size: 25px;
+     position: relative;
+ }
+
+ .navbar{
+     margin: 1.5rem 0;
+ }
+
+ .nav_link{
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .nav_link_1{
+    margin: 0 10rem;
+ }
+
+ .nav_logo{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(147, 199, 216); 
+    border-bottom: 1.5px solid lightsalmon; 
+ }
+
+ .nav_nav{
+     text-decoration: none;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 18px;
+     color: lightblue;
+     margin: 0 1rem;
+ }
+
+ .nav_nav:hover{
+    border-bottom: 1.5px solid lightsalmon;  
+ }
+
+ .nav_link_right{
+     padding: .5rem 0;
+ }
+
+ .nav_navbar{
+    text-decoration: none;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 16px;
+     background: rgba(223, 108, 7, 0.623);
+     color: #fff;
+     margin: 0 1rem; 
+     padding: .5rem; 
+     border-radius: 3px;
+ }
+
+ .nav_navbar:hover{
+    background: rgba(155, 70, 2, 0.945);  
+ }
+ /* Section_1 */
+
+ .topper_img{
+     width: 100%;
+     height: 50vh;
+     background: url('../img/vanz-02.jpg') no-repeat center center/cover;
+ }
+
+ .controller{
+     width: 200px;
+     font-size: 30px;
+     margin: auto;
+     color: rgb(230, 150, 81);
+     padding-top: 5rem; 
+ }
+ /* Sub Section: boxes,box image, booking andd price*/
+
+ .sub_section{
+     width: 100%;
+     height: 100vh;
+     background: rgba(205, 229, 245, 0.287);
+     background-position: cover;
+     padding-top: 2rem;
+ }
+
+ .box_section{
+     display: flex;
+     justify-content: space-around;
+     padding-top: 4rem;
+ }
+
+ .section_header{
+     text-align: center;
+ }
+
+ .box_1,.box_2,.box_3{
+     width: 280px;
+     height: 373px;
+     background: #fff;
+     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+     border-radius: 6px;
+ } 
+
+ .box_img{
+     width: 250px;
+     height: 250px;
+     background: url('../img/taxi.jpg') no-repeat center center/cover;
+     margin: 0 1rem;
+ }
+ .box_img_2{
+     width: 250px;
+     height: 250px;
+     background: url('../img/21bus.gif') no-repeat center center/cover;
+     margin: 0 1rem;
+ }
+ .box_img_3{
+     width: 250px;
+     height: 218px;
+     background: url('../img/ny.jpg') no-repeat center center/cover;
+     margin: 1rem;
+ }
+
+ .box_link_bckgd{
+     width: 100%;
+     height: 70px;
+     background:  rgb(184, 216, 236);
+     padding: 1rem 2rem;
+ }
+
+ .box_link_bckgd:hover{
+    background:  rgb(86, 162, 209);
+ }
+
+ .box_link{
+     text-decoration: none;
+     font-size: 30px;
+     text-align: center;
+     color: #fff;
+ }
+
+ .box_tag{
+     height: 52px;
+     background:  rgba(236, 234, 234, 0.575);
+    padding-top: 1rem;
+    font-size: 18px; 
+ }
+
+ .amount{
+    padding: 1.2rem;
+ }
+ .book{
+    
+     font-size: 18px;
+     color: #444;
+     text-decoration: none;
+     padding: 1.1rem;
+     margin-left: 2.1rem;
+ }
+ .book:hover{
+    background: rgba(187, 88, 2, 0.623);
+ }
+
+ /* Sub Section_1: */
+
+ .sub_section_1{padding-top: 2rem;}
+
+ .create_account_section{
+     display: flex;
+     margin: 0 10rem;
+     padding-top: 2rem;
+ }
+ .create_account_section_1{
+     display: flex;
+     flex-direction: row-reverse;
+     margin: 0 10rem;
+     padding-top: 2rem;
+ }
+
+ .page_img{
+     width: 400px;
+     height: 300px;
+     background: url('../img/taxi.jpg') no-repeat center center/cover;
+
+ }
+
+ .page_img_1{
+     width: 400px;
+     height: 300px;
+     background: url('../img/school-bus.jpg') no-repeat center center/cover;
+ }
+
+ .page_content{
+     width: 500px;
+     height: 300px;
+     margin: 0 2rem;
+     padding-bottom: 2rem;
+ }
+
+ .create_link{
+     background: gold;
+     font-size: 18px;
+     text-decoration: none;
+     color: #fff;
+     margin: 7rem;
+     padding: .7rem;
+     border-radius: 5px;
+ }
+
+ .create_link:hover{background: goldenrod;}
+ .section_header_1{
+     color: #444;
+     margin-left: 15rem;
+     padding-top: 2rem;
+ }
+
+ .last_img{
+     width: 300px;
+     height: 300px;
+     background-color: rgba(67, 67, 202, 0.376);
+ }
+
+ .frame{
+     padding-top: 5rem;
+ }
+ .about_frame{
+     width: 100%;
+     height: 500px;
+    background: rgba(205, 229, 245, 0.287);
+    padding: 2rem;
+ }
+ .frame_backgd{
+     width: 800px;
+     height: 400px;
+     background: #fff;
+     margin: auto;
+     padding: 2rem;
+ }
+ .frame_img{
+     width: 400px;
+     height: 300px;
+     background: url('../img/driver_1.gif') no-repeat center center/cover;
+     margin-left: 2rem;
+ }
+ .frame_txt{
+     width: 400px;
+     font-size: 18px;
+     line-height: 2rem;
+ }
+ .frame_content{
+     display: flex;
+ }
+ .frame_text{
+     text-align: center;
+     font-size: 30px;
+ }
+
+ .footer{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+}
+
+ /* Form pages for both create an account and login page */
+
+ .form_box{
+     height: 100%;
+ }
+ .form_box_1{
+     padding-top: 6rem;
+ }
+ .form_box_book{
+     padding-top: 5rem;
+     margin-right: 5rem;
+ }
+ 
+ .form_wrap{
+     width: 500px;
+     height: 400px;
+     padding-top: 1rem;
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+     margin-left: 25rem;
+ }
+
+ .form_wrap_login{
+     width: 400px;
+     height: 300px;
+     padding-top: 1rem;
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+     margin: auto;
+ }
+ .form_wrap_manage_book{
+    width: 500px;
+    height: 400px;
+    padding-top: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+
+ label{
+     font-size: 18px;
+     margin: 0 3rem;
+ }
+ .label_login{
+     font-size: 18px;
+     margin: 0 1.5rem;
+ }
+
+ .block{
+     width: 400px;
+     display: block;
+     outline: none;
+     padding: .5rem;
+     border-radius: 5px;
+     border: 1px solid rgba(156, 156, 156, 0.582);
+     margin: .5rem 3rem;
+}
+ .block_login{
+     width: 350px;
+     display: block;
+     outline: none;
+     padding: .5rem;
+     border-radius: 5px;
+     border: 1px solid rgba(156, 156, 156, 0.582);
+     margin: .5rem 1.5rem;
+}
+.text_center{
+    text-align: center;
+}
+.btn_btn{
+    width: 400px;
+    background: rgb(218, 185, 2);
+    padding: .3rem;
+    margin: .5rem 3rem;
+    border: 1px solid rgba(156, 156, 156, 0.582);
+    border-radius: 5px;
+}
+.btn_btn_login{
+    width: 350px;
+    background: rgb(218, 185, 2);
+    padding: .3rem;
+    margin: .5rem 1.5rem;
+    border: 1px solid rgba(156, 156, 156, 0.582);
+    border-radius: 5px;
+}
+.btn_btn:hover{
+    background: rgb(133, 113, 1);
+}
+.reg{
+    font-size: 18px;
+    margin: .5rem 3rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Booking Page */
+
+.booking{
+     padding-top: 10rem;
+     padding-left: 26rem; 
+}
+
+.book_form{
+    width: 400px;
+    height: 300px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.book_extension{
+    height: 30px;
+    padding: .2rem 0;
+    background: rgb(138, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.book_form_wrap{
+    padding-top: 1.8rem;
+}
+
+.book_link{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(209, 208, 208);
+    padding: .7rem;
+    border-left: 1px solid #fff;
+}
+
+.book_link:hover{
+    border-bottom: 1.5px solid  rgb(86, 162, 209);
+}
+
+.pay_style{
+    padding-top: 1.8rem;
+}
+
+.pay_label{
+    background: rgb(138, 0, 0);
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgba(139, 139, 139, 0.787);
+}
+.current{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgba(167, 166, 166, 0.644);
+    border-radius: 5px;
+}
+
+.city{
+    width: 170px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgba(167, 166, 166, 0.644);
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.date{
+    width: 360px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgba(167, 166, 166, 0.644);
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-top: 1.8rem;
+}
+.btn_col{
+    width: 100px;
+    background: rgb(216, 155, 2);
+    margin-top: 4rem;
+    margin-left: 9rem;
+    padding: .2rem;
+}
+.btn_col:hover{
+    background: rgb(170, 122, 1);
+}
+.continue{
+    text-decoration: none;
+    color: #fff;
+}
+
+.book_slip{
+ text-align: center;
+}
+
+.book_slip_col{
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    padding: .5rem;
+    font-size: 16px;
+    color: rgb(61, 55, 55);
+    position: absolute;
+    top: 8rem;
+    left: 28rem;
+
+}
+.brn_col{
+    color: rgba(167, 0, 0, 0.739);
+}
+
+.payment{
+    background: rgb(151, 130, 8);
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid rgb(124, 123, 123);
+    border-radius: 2px;
+}
+.payment:hover{
+    background: rgb(97, 82, 0);
+}
+/* Profile page */
+.search{
+    height: 30px;
+    padding: .5rem;
+    border: 1px solid rgba(214, 210, 210, 0.739);
+    border-radius: 5px;
+}
+
+.profile{
+    display: flex;
+    margin: 0 4rem;
+}
+
+.create_ride{
+    width: 600px;
+    margin: 5rem 20rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.profile_box{
+    width: 220px;
+    height: 430px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin: auto; 
+
+}
+
+.profile_box_1{
+    padding: .5rem;
+    font-size: 16px;
+}
+
+.profile_img{
+    width: 200px;
+    height: 150px;
+    background: url('../img/school-bus.jpg') no-repeat center center/cover;
+}
+.profile_img_1{
+    width: 200px;
+    height: 150px;
+    background: url('../img/driver_1.gif') no-repeat center center/cover;
+}
+.profile_img_2{
+    width: 200px;
+    height: 150px;
+    background: url('../img/21bus.gif') no-repeat center center/cover;
+}
+.profile_img_3{
+    width: 200px;
+    height: 150px;
+    background: url('../img/taxi.jpg') no-repeat center center/cover;
+}
+
+.btn_col_1{
+    width: 100px;
+    background: rgb(216, 155, 2);
+    padding: .2rem;
+    border-radius: 3px;
+}
+.btn_col_1:hover{
+    background:  rgb(138, 99, 1);
+}
+.join{
+        text-decoration: none;
+        color: #fff;
+}
+

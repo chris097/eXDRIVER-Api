@@ -46,11 +46,4 @@ if (router.get('env') === 'development') {
 
 //Db work...
 Debug('Connected to the database.......');
-
-
-
-ride.use(logger); 
- */
-
-
-
+*/

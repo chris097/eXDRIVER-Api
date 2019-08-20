@@ -1,0 +1,39 @@
+.logIn-row{
+    padding-top: 8rem;
+}
+.logIn-col{
+    width: 28rem;
+    height: 20rem;
+   box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .1);
+   margin: auto;
+}
+.log{
+    margin: 1rem 2rem;
+}
+.email{
+    width: 22rem;
+    padding: .5rem;
+    margin: .5rem 0;
+    border: 1px solid #44444493;
+    outline: none;
+    border-radius: .3rem;
+}
+.password{
+    width: 22rem;
+    padding: .5rem;
+    margin: .5rem 0;
+    border: 1px solid #44444493;
+    outline: none;
+    border-radius: .3rem;
+}
+.log-btn{
+    width: 22rem;
+    background: #dab902;
+    padding: .3rem;
+    margin-top: 1rem;
+    border: 1px solid rgba(156, 156, 156, 0.582);
+    border-radius: 5px;
+}
+.log-btn:hover{
+    background: #8f7901;
+}

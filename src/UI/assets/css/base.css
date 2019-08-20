@@ -1,0 +1,152 @@
+.header{
+    width: 100%;
+    background-color: #ffffff;
+    grid-column: 1 / -1;
+    box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .1);
+    position: fixed;
+    z-index: 2;
+}
+.sub-head{
+ display: grid;
+ grid-template-columns: 1fr 3fr 1fr 1.5fr;
+ justify-content: space-between;
+}
+.columns{
+    grid-column: card-start / card-end;
+    padding-top: 3.5rem;
+}
+.column-img{
+    width: 100%;
+    height: 45vh;
+    background: url('../img/vanz-02.jpg') no-repeat center center/cover;
+}
+.column-txt{
+    width: 14vw;
+    height: 5vh;
+    color: #c03c3cd7;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+    padding-top: 7%;
+}
+#card3{
+    background-color: #3ba6e928;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(auto-fit, min-content);
+}
+.card-column{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11.5rem, 1fr));
+    grid-gap: 3rem;
+    margin: 8vh 15vw;
+}
+.card-box-1{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+} 
+.box-img-1{
+    width: 100%;
+    height: 10rem;
+    background-position: center center/cover;
+    background-repeat: no-repeat;
+    margin: .5rem 0;
+}
+.card-box-2{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+} 
+.box-img-2{
+    width: 100%;
+    height: 10rem;
+    background-position: center center/cover;
+    background-repeat: no-repeat;
+    margin: .5rem 0;
+}
+.card-box-3{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, 0);
+    border-radius: .5rem;
+} 
+.box-img-3{
+    width: 95%;
+    height: 9.5rem;
+    background-position: center center/cover;
+    background-repeat: no-repeat;
+    margin: .5rem;
+}
+.txt-img{
+    grid-column: 2 / 9;
+}
+.box-column-1{
+    display: grid;
+    grid-template-rows: repeat(4, min-content);
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-column-gap: 4rem;
+    margin: 0 6vw;
+}
+.image-1{
+    width: 100%;
+    height: 35%;
+    background-position: center center/cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+.img-txt{
+    grid-column: 2 / 9;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.box-column-2{
+    display: grid;
+    grid-template-rows: repeat(4, min-content);
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-column-gap: 2rem;
+    margin: 0 3vw;
+}
+.image-2{
+    width: 100%;
+    height: 35%;
+    background-position: center center/cover;
+    background-repeat: no-repeat;
+}
+#card{
+    background-color: #3ba6e928;
+    grid-column: 1 / -1; 
+    display: grid;
+    grid-template-columns: minmax(auto-fit, min-content);
+}
+.card-area{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    margin: 8vh 20vw;
+}
+.sub-txt-cols{
+    padding-top: 4rem;
+}
+.card-img{
+    width: 95%;
+    height: 60vh;
+    margin:  1rem .5rem;
+   
+}
+.foot{
+    width: 100%;
+    grid-column: 1 / -1;
+    background-color: #ffffff;
+    box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .1);
+}
+.sub-foot{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1.5fr;
+    justify-content: space-between;
+   }

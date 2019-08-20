@@ -4,45 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assest/css/style.css">
-    <link rel="stylesheet" href="./assest/css/mobile.css">
-    <title>iRide | Home page</title>
+    <link rel="stylesheet" href="../UI/assets/css/style.css">
+    <title>Document</title>
 </head>
-<body id="ride_app">
-   <header class="header">
-    <div class="navbar">
-        <nav class="nav_link_1">
-          <div class="logo"><a class="nav_logo" href="index.html"><em>The-Transporter</em></a>
-        </div>
-      
-        </nav>
-        </div>
+<body>
+    <div class="header">
+        <div class="sub-head">
+           <div class="logo"><a href="index.html">eXDRIVER</a></div>
+            </div>
     </div>
- <section class="form_box">
-     <h2 class="text_center"><em>The-Transporter</em></h2>
-     <div class="form_wrap">
-         <p class="mg"><em>Please fill in your details:</em></p>
-         <form action="">
-            <div>
-              <label for="firstname">Firstname:</label>
-              <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" class="block">
-            </div>
-            <div>
-              <label for="lastname">Lastname:</label>
-              <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname" class="block">
-            </div>
-            <div>
-             <label for="email">Email:</label>
-             <input type="email" name="email" id="email" placeholder="Enter your email" class="block">
-            </div>
-            <div>
-             <label for="password">Password:</label>
-             <input type="password" name="password" id="password" placeholder=" Enter your password" class="block">
-            </div>
-            <button type="submit" class="btn_btn"><a class="reg" href="profile.html">Register</a></button>
-         </form>
-     </div>
-     <p class="text_center fn_sz mg_1">Already have an account? Login <a class="col" href="log.html">here</a></p>
- </section>
+    <div class="account-row">
+            <h2 class="text-center"><em>eXDRIVER.com</em></h2>
+            <div class="accounts">
+                    <div class="account-col">
+                        <p class="pd-top-2 mg-2"><em>Create account:</em></p>
+                        <form class="account">
+                           <div><label for="firstname">Firstname:</label></div>
+                            <div><input type="text" name="firstname" id="firstname" placeholder="firstname" class="firstname"></div>
+                           <div><label for="lastname">Lastname:</label></div>
+                           <div><input type="text" name="lastname" id="lastname" placeholder="lastname" class="lastname"></div>
+                           <div><label for="Email:">Email:</label></div>
+                           <div><input type="email" name="email" id="email" placeholder="email" class="account-email"></div>
+                           <div><label for="password">Password</label></div>
+                           <div><input type="password" name="password" id="password" placeholder="password" class="account-password"></div>
+                           <div><button class="account-btn"><a class="col-4" href="profile.html">Log In</a></button></div>
+                        </form>
+                    </div>
+                    <p class="text-center col-2">Already have an account? Log In<a class="col-3" href="profile.html">here</a></p>
+                </div>
+       </div>
 </body>
 </html>
